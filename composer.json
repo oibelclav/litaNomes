@@ -1,0 +1,35 @@
+{
+    "name": "api/mvc",
+    "description": "API demostrativa do modelo MVC",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "oibelclav",
+            "email": "valclebioalves@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Config":"Config/",
+            "BaseController":"Controller/API/",
+            "UserController":"Controller/API/",
+            "DataBse":"Model/",
+            "UserModel": "Model",
+            "Index": "apiTest"
+
+        },
+        "psr-12":{
+            "Config":"Config/",
+            "BaseController":"Controller/API/",
+            "UserController":"Controller/API/",
+            "DataBse":"Model/",
+            "UserModel": "Model",
+            "Index": "apiTest"           
+        }
+
+    }
+}
